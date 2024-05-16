@@ -1,0 +1,9 @@
+function sumArray(arr) {
+    let i = 0 
+    for (let arr =0; arr <= numbers.length-1; arr += 1){
+        i += numbers[arr]
+    }return i
+}
+
+const numbers = [1, 2, 3, 4, 5];
+console.log(sumArray(numbers)); // 15と表示されることが期待されます
