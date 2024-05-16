@@ -1,3 +1,5 @@
+quiz1
+
 function sumArray(arr) {
     let i = 0 
     for (let arr =0; arr <= numbers.length-1; arr += 1){
