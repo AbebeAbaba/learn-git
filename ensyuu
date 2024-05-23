@@ -9,3 +9,32 @@ function sumArray(arr) {
 
 const numbers = [1, 2, 3, 4, 5];
 console.log(sumArray(numbers)); // 15と表示されることが期待されます
+
+
+quiz2
+// ここにpersonオブジェクトを定義
+const person = {
+    namae: 'a',
+    age: 's',
+    city: 'd',
+    hobbies: 'f',
+};
+
+function updatePerson(obj, key, value) {
+    switch (key) {
+        case 'namae':
+            obj.namae = value
+        case 'age':
+            obj.age = value
+        case 'city':
+            obj.city = value
+        case 'hobbies':
+            obj.hobbies = value
+    }
+}
+// 例としてpersonオブジェクトを更新
+updatePerson(person, 'age', 30);
+console.log(person.age); // 30と表示されることが期待されます
+
+updatePerson(person, 'city', 'Tokyo');
+console.log(person.city); // Tokyoと表示されることが期待されます
